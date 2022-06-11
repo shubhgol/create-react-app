@@ -4,7 +4,7 @@
  SetUp
  
  1) install react library
-     react , react-dom
+       react , react-dom
 2) install webpack library
      webpack --- which include all core webpack functionality
      webpack-cli --- enable running webpack from the command line
