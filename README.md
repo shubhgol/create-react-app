@@ -25,7 +25,7 @@
    babel-loader ---- is a webpack loader that hooks Babel into webpack. We will run Babel from webpack with this package.
    
    
-   webpack config setup
+#   webpack config setup
    
    mode: env whether its running in dev or prod env
    entry: path of main js file
@@ -35,7 +35,7 @@
    }
    
    module : {
-   rule: [{
+   rules: [{
       test: 'regex path to text file'
       exclude : regex for file to not be test
       loader: loader to compile this type of file
