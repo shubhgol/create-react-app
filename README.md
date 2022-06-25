@@ -23,3 +23,22 @@
    @babel/present-react --- is used for transforming JSX and React class syntax into valid JavaScript code.
 
    babel-loader ---- is a webpack loader that hooks Babel into webpack. We will run Babel from webpack with this package.
+   
+   
+   webpack config setup
+   
+   mode: env whether its running in dev or prod env
+   entry: path of main js file
+   output : {
+      path: directory name,
+      filename: file name
+   }
+   
+   module : {
+   rule: [{
+      test: 'regex path to text file'
+      exclude : regex for file to not be test
+      loader: loader to compile this type of file
+      
+   }}
+}
